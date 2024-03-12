@@ -1,8 +1,9 @@
-export default function ProductReview({params}:
-    {params: {
-        productId: string; 
-        reviewId: string;
-    }
+export default function ProductReview(
+    {params}:
+        {params: {
+            productId: string; 
+            reviewId: string;
+        }
 }) 
 {
     return (
